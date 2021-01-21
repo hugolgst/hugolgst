@@ -17,6 +17,6 @@ jobs:
           token: ${{ secrets.USER_TOKEN }}
           committer_token: ${{ secrets.GITHUB_TOKEN }}
           config_timezone: Europe/Zurich
-          repositories_forks: yes
+          plugin_lines: yes
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
