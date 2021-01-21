@@ -1,0 +1,22 @@
+name: Metrics
+
+on:
+  push:
+    branches: [ master ]
+  schedule:
+    - cron: '0 */12 * * *'
+
+jobs:
+  generate-metrics:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.USER_TOKEN }}
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+          config_timezone: Europe/Zurich
+          repositories_forks: yes
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
