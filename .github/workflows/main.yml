@@ -23,3 +23,4 @@ jobs:
           plugin_habits: yes
           plugin_habits_from: 200
           plugin_habits_days: 14
+          plugin_languages: yes
