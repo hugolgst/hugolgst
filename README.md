@@ -1,4 +1,7 @@
 ## Hello 👋
-- I am a Junior Software Engineer at <a href="https://github.com/VisiumCH">@VisiumCH</a> in **Lausanne, Switzerland**.
-- I love **Golang** and **Nix/NixOS/Nixpkgs**
-- Other than engineering, I enjoy Photography, Space, Mountain
+I love open-source, [Golang](https://golang.org/), [NixOS](https://nixos.org/) and [Vim](https://www.vim.org/).
+- Creator of the [Olivia](https://olivia-ai.org/) chatbot, in Go.
+- Release Engineer and Marketing team member of [NixOS](https://github.com/NixOS).
+- DevOps
+- Full-stack developer (React, Vue, Flask/FastAPI, Golang, Ruby on Rails...)
+- Unix IT administrator
